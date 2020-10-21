@@ -13,6 +13,11 @@
 		6B84AD3B24E3187300D28C32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B84AD3924E3187300D28C32 /* Main.storyboard */; };
 		6B84AD3D24E3187600D28C32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B84AD3C24E3187600D28C32 /* Assets.xcassets */; };
 		6B84AD4024E3187600D28C32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B84AD3E24E3187600D28C32 /* LaunchScreen.storyboard */; };
+		6B84AD4824E99B2F00D28C32 /* CollectionViewHucre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B84AD4724E99B2F00D28C32 /* CollectionViewHucre.swift */; };
+		6BD3CCA724EC1D5600E81211 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD3CCA624EC1D5600E81211 /* TableCell.swift */; };
+		6BD3CCA924F6F4A400E81211 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD3CCA824F6F4A400E81211 /* PickerView.swift */; };
+		6BFC2521253CAEC8005046B7 /* Gnoclass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFC2520253CAEC8005046B7 /* Gnoclass.swift */; };
+		6BFC2525253CBA45005046B7 /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFC2524253CBA45005046B7 /* DBHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		6B84AD3C24E3187600D28C32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B84AD3F24E3187600D28C32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B84AD4124E3187600D28C32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B84AD4724E99B2F00D28C32 /* CollectionViewHucre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewHucre.swift; sourceTree = "<group>"; };
+		6BD3CCA624EC1D5600E81211 /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		6BD3CCA824F6F4A400E81211 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		6BFC2520253CAEC8005046B7 /* Gnoclass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gnoclass.swift; sourceTree = "<group>"; };
+		6BFC2524253CBA45005046B7 /* DBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,8 @@
 		6B84AD3224E3187200D28C32 /* UniGnoHesap */ = {
 			isa = PBXGroup;
 			children = (
+				6BFC2523253CB97B005046B7 /* helper */,
+				6BFC251F253CAE34005046B7 /* models */,
 				6B84AD3324E3187300D28C32 /* AppDelegate.swift */,
 				6B84AD3524E3187300D28C32 /* SceneDelegate.swift */,
 				6B84AD3724E3187300D28C32 /* ViewController.swift */,
@@ -63,8 +75,27 @@
 				6B84AD3C24E3187600D28C32 /* Assets.xcassets */,
 				6B84AD3E24E3187600D28C32 /* LaunchScreen.storyboard */,
 				6B84AD4124E3187600D28C32 /* Info.plist */,
+				6B84AD4724E99B2F00D28C32 /* CollectionViewHucre.swift */,
+				6BD3CCA624EC1D5600E81211 /* TableCell.swift */,
+				6BD3CCA824F6F4A400E81211 /* PickerView.swift */,
 			);
 			path = UniGnoHesap;
+			sourceTree = "<group>";
+		};
+		6BFC251F253CAE34005046B7 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				6BFC2520253CAEC8005046B7 /* Gnoclass.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		6BFC2523253CB97B005046B7 /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				6BFC2524253CBA45005046B7 /* DBHelper.swift */,
+			);
+			path = helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +169,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BD3CCA724EC1D5600E81211 /* TableCell.swift in Sources */,
 				6B84AD3824E3187300D28C32 /* ViewController.swift in Sources */,
+				6BD3CCA924F6F4A400E81211 /* PickerView.swift in Sources */,
 				6B84AD3424E3187300D28C32 /* AppDelegate.swift in Sources */,
+				6B84AD4824E99B2F00D28C32 /* CollectionViewHucre.swift in Sources */,
+				6BFC2521253CAEC8005046B7 /* Gnoclass.swift in Sources */,
 				6B84AD3624E3187300D28C32 /* SceneDelegate.swift in Sources */,
+				6BFC2525253CBA45005046B7 /* DBHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +323,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 47CXT9QAGP;
 				INFOPLIST_FILE = UniGnoHesap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +342,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 47CXT9QAGP;
 				INFOPLIST_FILE = UniGnoHesap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
